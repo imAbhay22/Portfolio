@@ -13,6 +13,7 @@ import Netflix from "./Components/Projects/Netflix";
 import ScrollToTop from "./Components/ScrollToTop";
 import Resume from "./Components/Resume";
 import { useDarkMode } from "./Components/DarkContextApi";
+import Skills from "./Components/Skills";
 function App() {
   const { darkMode } = useDarkMode();
   return (
@@ -40,6 +41,7 @@ function App() {
           />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/onlineartgallery" element={<OnlineArtGallery />} />
           <Route path="/amazon" element={<Amazon />} />
           <Route path="/netflix" element={<Netflix />} />

@@ -23,6 +23,9 @@ const Nav = () => {
         <li className="font-light text-base sm:text-lg hover:underline cursor-pointer">
           <Link to="/resume">Resume</Link>
         </li>
+        <li className="font-light text-base sm:text-lg hover:underline cursor-pointer">
+          <Link to="/skills">Skills</Link>
+        </li>
       </ul>
 
       {/* Centered heading (Hidden on small screens, visible on md and larger) */}
